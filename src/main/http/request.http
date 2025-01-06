@@ -1,4 +1,10 @@
+### request header 조회
 POST http://localhost:8080/request-header
 Content-Type: text/html
 
 hello!
+
+### get 쿼리 파라미터
+GET http://localhost:8080/request-param
+    ?username=kim&age=20&username=hello2
+
