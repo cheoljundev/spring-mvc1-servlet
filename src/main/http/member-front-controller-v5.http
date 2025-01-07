@@ -1,0 +1,17 @@
+### test
+GET {{host}}//front-controller/v5/v3/hello
+
+### new form
+GET {{host}}//front-controller/v5/v3/members/new-form
+
+### save
+
+POST {{host}}//front-controller/v5/v3/members/save
+Content-Type: application/x-www-form-urlencoded
+
+username = kim&
+age = 20
+
+### list
+
+GET {{host}}//front-controller/v5/v3/members
