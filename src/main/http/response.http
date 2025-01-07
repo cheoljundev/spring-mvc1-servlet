@@ -1,0 +1,3 @@
+### response headers
+# @no-redirect
+GET {{host}}/response-header
