@@ -1,0 +1,12 @@
+### member new form
+GET {{host}}/servlet/members/new-form
+
+### 유저 저장
+POST {{host}}/servlet/members/save
+Content-Type: application/x-www-form-urlencoded
+
+username = park&
+age = 40
+
+### 유저 리스트
+GET {{host}}/servlet/members
