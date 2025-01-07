@@ -1,0 +1,13 @@
+### new form
+GET {{host}}/jsp/members/new-form.jsp
+
+### save
+
+POST {{host}}/jsp/members/save.jsp
+Content-Type: application/x-www-form-urlencoded
+
+username = kim &
+age = 20
+
+### list
+GET {{host}}/jsp/members.jsp
