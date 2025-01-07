@@ -14,3 +14,9 @@ Content-Type: application/x-www-form-urlencoded
 
 username=lee&
 age=30
+
+### post request body string
+POST {{host}}/request-body-string
+Content-Type: text/plain
+
+hello!
