@@ -4,3 +4,6 @@ GET {{host}}/response-header
 
 ### response html
 GET {{host}}/response-html
+
+### response json
+GET {{host}}/response-json
