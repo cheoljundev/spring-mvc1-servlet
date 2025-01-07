@@ -1,0 +1,12 @@
+### new form
+GET {{host}}/servlet-mvc/members/new-form
+
+### save
+POST {{host}}/servlet-mvc/members/save
+Content-Type: application/x-www-form-urlencoded
+
+username = kim&
+age = 20
+
+### get list
+GET {{host}}/servlet-mvc/members
