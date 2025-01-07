@@ -20,3 +20,12 @@ POST {{host}}/request-body-string
 Content-Type: text/plain
 
 hello!
+
+### post request body json
+POST {{host}}/request-body-json
+Content-Type: application/json
+
+{
+  "username": "hello",
+  "age": 20
+}
